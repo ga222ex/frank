@@ -1,0 +1,59 @@
+ html, body, header {margin: 0; padding: 0;}
+body {
+	background: gold;
+}
+header {
+	background: lightgreen;
+}
+header.jumbotron {
+	margin: 0;
+}
+nav.navbar {
+	text-align: center;
+}
+ul.nav {
+	display: inline-block;
+	float: none;
+}
+li {
+	min-width: 100px;
+}
+h1 {
+	cursor: default;
+}
+::selection {
+	background: mediumvioletred;
+}
+.contact-form span {
+	display: inline-block;
+	width: 140px;
+	padding: 15px;
+	text-align: right;
+}
+.contact-us-title {
+	margin-left: 200px;
+}
+.loginContainer {
+	float: left;
+	cursor: pointer;
+}
+.loginContainer span {
+	color: white;
+}
+.loginContainer label {
+	color: white;
+}
+.loginButton span {
+	padding: 15px;
+	display: block;
+}
+.loginButton :hover {
+	color: tomato;
+}
+.loginFormContainer {
+	display: none;
+}
+.loginContainer .loginFormContainer
+	span {
+		padding: 5px;
+	}
